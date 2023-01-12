@@ -1,0 +1,14 @@
+h1 {
+  display: inline-block;
+  position: relative;
+}
+
+h1:after {
+  content: "Available 24/7 and Customizable";
+  display: block;
+  position: absolute;
+  font-size: 14px;
+  top: -20px;
+  right: 0;
+  font-weight: normal;
+}
